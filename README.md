@@ -46,11 +46,13 @@ MySQL persistent storage
 Dockerized backend support
 
 🏗 System Architecture
+
 React (Vite)
      ↓
 Spring Boot REST API
      ↓
 MySQL Database
+
 🔐 Authentication Flow
 
 User logs in
@@ -101,6 +103,7 @@ npm run dev
 Frontend runs on:
 
 http://localhost:5173
+
 🗄 Database Setup
 
 Ensure MySQL is running
@@ -114,9 +117,13 @@ Update credentials in environment variables
 📂 Project Structure
 
 Zen-B/
+
 │
+
 ├── Zen-B_Backend/      # Spring Boot backend (REST API + JWT + MySQL)
+
 │
+
 └── Zen-B_Frontend/     # React + Vite frontend
 
 Zen-B was developed to:

@@ -112,10 +112,12 @@ CREATE DATABASE orbix;
 Update credentials in environment variables
 
 📂 Project Structure
+
 Zen-B/
- ├── Zen-B_Backend/
- └── Zen-B_Frontend/
-🎯 Purpose of the Project
+│
+├── Zen-B_Backend/      # Spring Boot backend (REST API + JWT + MySQL)
+│
+└── Zen-B_Frontend/     # React + Vite frontend
 
 Zen-B was developed to:
 

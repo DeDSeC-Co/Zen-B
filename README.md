@@ -62,7 +62,9 @@ Token stored in secure HTTP-only cookie
 Protected routes validated via filter
 
 🖥 Running the Project
+
 🔹 Backend
+
 Option 1 — Run with Docker
 
 Build image:
@@ -81,6 +83,7 @@ zenb
 Backend runs on:
 
 http://localhost:9090
+
 Option 2 — Run via Spring Tools
 
 Import project into Spring Tool Suite / IntelliJ
@@ -90,7 +93,9 @@ Wait for Maven dependencies to load
 Run as Spring Boot Application
 
 🔹 Frontend
+
 npm install
+
 npm run dev
 
 Frontend runs on:
